@@ -168,6 +168,7 @@ const slideRef = ref(null)
 
   &.next-disappear
     visibility: visible
+    z-index: 9
 
     .c-slide-poster
       .c-slide-poster-container
@@ -190,6 +191,7 @@ const slideRef = ref(null)
 
   &.prev-disappear
     visibility: visible
+    z-index: 9
 
     .c-slide-poster
       .c-slide-poster-container
