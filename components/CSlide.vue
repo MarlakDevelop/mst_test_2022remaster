@@ -168,7 +168,13 @@ const slideRef = ref(null)
 
   &.next-disappear
     visibility: visible
-    z-index: 9
+    animation-name: slide-disappear
+    animation-duration: 0.4s
+    animation-timing-function: linear
+    animation-iteration-count: 1
+    animation-direction: alternate
+    animation-delay: 0s
+    animation-fill-mode: forwards
 
     .c-slide-poster
       .c-slide-poster-container
@@ -191,7 +197,13 @@ const slideRef = ref(null)
 
   &.prev-disappear
     visibility: visible
-    z-index: 9
+    animation-name: slide-disappear
+    animation-duration: 0.4s
+    animation-timing-function: linear
+    animation-iteration-count: 1
+    animation-direction: alternate
+    animation-delay: 0s
+    animation-fill-mode: forwards
 
     .c-slide-poster
       .c-slide-poster-container
@@ -270,4 +282,14 @@ const slideRef = ref(null)
 
   100%
     opacity: 0
+
+@keyframes slide-disappear
+  0%
+    visibility: visible
+
+  99.99%
+    visibility: visible
+
+  100%
+    visibility: hidden
 </style>
