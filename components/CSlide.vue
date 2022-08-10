@@ -53,6 +53,7 @@ const slideRef = ref(null)
   right: 0
   bottom: 0
   grid-template-columns: 50% 50%
+  z-index: 10
 
   .c-slide-poster
     height: 100%
