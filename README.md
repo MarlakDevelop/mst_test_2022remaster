@@ -1,42 +1,10 @@
-# Nuxt 3 Minimal Starter
+## Проект сделан на основе https://www.figma.com/file/yXeGSF4f0UTciZWfIYKdx9/MST-%7C-Frontend-Test---1?node-id=9%3A414
+### Проект использовал следующие технологии:
+- vue 3
+- nuxt 3
+- typescript
+- sass
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+### Сложностей как таковых не возникло
 
-## Setup
-
-Make sure to install the dependencies:
-
-```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install --shamefully-hoist
-```
-
-## Development Server
-
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
+## Ссылка на демо - https://mst2022.herokuapp.com/
